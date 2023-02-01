@@ -1,1 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.page-4 {
+  width: 100%;
+  background-color: #121212;
+}
+.page-4 .box {
+  display: flex;
+}
+.page-4 .box .box4__item2 {
+  display: flex;
+  overflow: hidden;
+}
+.page-4 .box .box4__item2 .box4__item2 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
