@@ -1,1 +1,197 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+  border-radius: 0px;
+  padding: 10px 0;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .navbar .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+header .navbar .navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+header .navbar .navigation a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121212;
+}
+header .navbar .navigation a:hover {
+  color: #FF5634;
+  transition: all 0.5s ease;
+}
+header .navbar .navigation .buttons {
+  display: flex;
+  gap: 18px;
+}
+header .navbar .navigation .buttons a {
+  padding: 19px 25px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 12px;
+}
+header .navbar .navigation .buttons a:hover {
+  color: #FFFFFF;
+  background: #FF5634;
+  transition: all 0.7s ease;
+}
+
+.page-2 {
+  width: 100%;
+}
+.page-2 .page-2__content {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-2 .page-2__content .page-2__title {
+  width: 660px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.page-2 .page-2__content .page-2__title span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  color: #FF5634;
+}
+.page-2 .page-2__content .page-2__title h1 {
+  margin: 7px 50px 22px 50px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+}
+.page-2 .page-2__content .page-2__title p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+}
+.page-2 .page-2__content .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 200px;
+  margin-bottom: 52px;
+}
+.page-2 .page-2__content .cards .card {
+  width: 330px;
+  text-align: center;
+}
+.page-2 .page-2__content .cards .card img {
+  margin-bottom: 32px;
+}
+.page-2 .page-2__content .cards .card h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+.page-2 .page-2__content .cards .card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+.page-2 .page-2__content .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+.page-2 .page-2__content .buttons a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #121212;
+  padding: 25px 38px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+}
+.page-2 .page-2__content .buttons a:hover {
+  background: #FF5634;
+  transition: all 0.5s ease;
+  color: #FFFFFF;
+}
+
+.page-3 {
+  width: 100%;
+  border: 1px solid;
+}
+.page-3 .page-3__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-3 .page-3__content .cards {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+.page-3 .page-3__content .cards .page-3__title {
+  width: 520px;
+  margin-bottom: 35px;
+}
+.page-3 .page-3__content .cards .page-3__title h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+  margin-bottom: 16px;
+}
+.page-3 .page-3__content .cards .page-3__title p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+}/*# sourceMappingURL=style.css.map */
