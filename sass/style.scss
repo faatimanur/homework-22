@@ -1,194 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
-header {
-    width: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
-    border-radius: 0px;
-    padding: 10px 0;
-    .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        .navigation {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 40px;
-            ul {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 28px;
-            }
-            a {
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 18px;
-                color: #121212;
-                &:hover {
-                    color: #FF5634;
-                    transition: all 0.5s ease;
-                }
-            }
-            .buttons {
-                display: flex;
-                gap: 18px;
-                a {
-                    padding: 19px 25px;
-                    background: #FFFFFF;
-                    border: 1px solid #EDEDED;
-                    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
-                    border-radius: 12px;
-                    &:hover {
-                        color: #FFFFFF;
-                        background: #FF5634;
-                        transition: all 0.7s ease;
-                    }
-                }
-            }
-        }
-        
+
+    /*Shahnoza*/
+    section.page-4{
+width: 100%;
+background-color: #121212;
+.box4{
+    display: flex;
+.box4__item1{
+    height: 315px;
+    width: 581.6875px;
+    padding-top: 269px;
+    padding-left: 109px;   
+    padding-right: 109px;
+    h1{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+color: #FFFFFF;
+height: 133px;
+width: 563px;
     }
+    p{
+        height: 61px;
+width: 541px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #FFFFFF;
+padding-top: 16px;
+    }
+button{height: 73px;
+    width: 206px;
+    border-radius: 16px;
+    background: #FF5634;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+transform: translateY(27px);
+&:hover{
+    color: #121212;
 }
-.page-2 {
-    width: 100%;
-    .page-2__content {
-        padding: 100px 0;
+}
+}  
+.box4__items{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 3 3;
+    gap: 25px;
+    padding-left: 282px;
+    padding-right: -10px;
+    img{
+        height: 355px;
+        width: 400px;      
+        object-fit: cover;  
+    }
+    .box4__item2{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        .page-2__title {
-            width: 660px;
+        object-fit: cover;
+gap: 30px;
+overflow: hidden;
+height: 858px;
+    }
+    .box4__item3{
+        display: flex;
+        flex-direction: column;
+   object-fit: cover;
+   gap: 30px;
+   height: 858px;
+   overflow: hidden;
+    }
+}
+}
+    }
+    section.page-5{
+        width: 100%;
+        padding-top: 199px;
+        .box5{
             text-align: center;
-            margin-bottom: 100px;
-            span {
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 20px;
-                text-align: center;
-                letter-spacing: 1.08px;
-                text-transform: uppercase;
-                color: #FF5634;
-            }
-            h1 {
-                margin: 7px 50px 22px 50px;
-                font-weight: 700;
-                font-size: 44px;
-                line-height: 54px;
-                text-align: center;
-                color: #121212;
-            }
-            p {
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 30px;
-                text-align: center;
-                color: #656565
-            }
+
+          span{font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 1.08px;
+text-transform: uppercase;
+color: #FF5634;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
         }
-        .cards {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 200px;
-            margin-bottom: 52px;
-            .card {
-                width: 330px;
-                text-align: center;
-                img {
-                    margin-bottom: 32px;
-                }
-                h2 {
-                    font-weight: 400;
-                    font-size: 28px;
-                    line-height: 35px;
-                    color: #121212;
-                    margin-bottom: 15px;
-                }
-                p {
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 30px;
-                    color: #656565;
-                }
-            }
-        }
-        .buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 27px;
-            a {
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 20px;
-                color: #121212;
-                padding: 25px 38px;
-                background: #FFFFFF;
-                border: 1px solid #EDEDED;
-                box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
-                border-radius: 16px;
-                &:hover {
-                    background: #FF5634;
-                    transition: all 0.5s ease;
-                    color: #FFFFFF;
-                }
-            }
-        }
+    h1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        padding-top: 7px;
+        font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #121212;
+    }
+    p{@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #656565;
+padding-top: 22px;
+    }
+    h2{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #656565;
+padding-left: 520px;
+    }
+    }
+    .page-5__box{
+margin-left: 200px;
+padding-top: 55px;
+display: flex;
+flex-wrap: wrap;
+gap: 100px;
+.page-5__box-item1{
+    height: 260px;
+    width: 350px;
+    text-align: center;
+    img{
+        padding-left: 10px;
+    }
+    h1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+color: #121212;
+padding-top: 28px;
+    }
+    p{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #656565;
+padding-top: 14px;
     }
 }
-.page-3 {
-    width: 100%;
-    border: 1px solid;
-    .page-3__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .cards {
-            display: flex;
-            align-items: center;
-            gap: 68px;
-            .page-3__title {
-                width: 520px;
-                margin-bottom: 35px;
-                h1 {
-                    font-family: 'Roboto';
-                    font-weight: 700;
-                    font-size: 44px;
-                    line-height: 54px;
-                    color: #121212;
-                    margin-bottom: 16px;
-                }
-                p {
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 30px;
-                    color: #656565;
-                }
-            }
-        }
     }
+<<<<<<< HEAD
 }
 
  /*muxlisa*/
@@ -579,3 +554,41 @@ header {
 
 
  }
+=======
+    .button1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FF5634;
+border: 1px solid #FF5634;
+border-radius: 16px;
+height: 73px;
+width: 247px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+margin-top: 50px;
+margin-left: 640px;
+&:hover{
+    color: #121212;
+}
+    }
+    .button2{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+border-radius: 16px;
+height: 73px;
+width: 205px;
+margin-left: 27px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #121212;
+cursor: pointer;
+    }
+}
+>>>>>>> 7fde2a917280b227cfbf0cab4f18b1cb3600f605
