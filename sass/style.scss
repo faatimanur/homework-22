@@ -1,14 +1,201 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.page-4{
-    width: 100%;
-    background-color: #121212;
-    .box{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*Shahnoza*/
+    section.page-4{
+width: 100%;
+background-color: #121212;
+.box4{
+    display: flex;
+.box4__item1{
+    height: 315px;
+    width: 581.6875px;
+    padding-top: 269px;
+    padding-left: 109px;   
+    padding-right: 109px;
+    h1{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+color: #FFFFFF;
+height: 133px;
+width: 563px;
+    }
+    p{
+        height: 61px;
+width: 541px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #FFFFFF;
+padding-top: 16px;
+    }
+button{height: 73px;
+    width: 206px;
+    border-radius: 16px;
+    background: #FF5634;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+transform: translateY(27px);
+&:hover{
+    color: #121212;
+}
+}
+}  
+.box4__items{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 3 3;
+    gap: 25px;
+    padding-left: 282px;
+    padding-right: -10px;
+    img{
+        height: 355px;
+        width: 400px;      
+        object-fit: cover;  
+    }
+    .box4__item2{
         display: flex;
-        .box4__item2{
-            display: flex;
-            overflow: hidden;
-            .box4__item2{
-                display: flex;
-                flex-direction: column;
-                overflow: hidden;
-            }}}}
+        flex-direction: column;
+        object-fit: cover;
+gap: 30px;
+overflow: hidden;
+height: 858px;
+    }
+    .box4__item3{
+        display: flex;
+        flex-direction: column;
+   object-fit: cover;
+   gap: 30px;
+   height: 858px;
+   overflow: hidden;
+    }
+}
+}
+    }
+    section.page-5{
+        width: 100%;
+        padding-top: 199px;
+        .box5{
+            text-align: center;
+
+          span{font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 1.08px;
+text-transform: uppercase;
+color: #FF5634;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        }
+    h1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        padding-top: 7px;
+        font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #121212;
+    }
+    p{@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #656565;
+padding-top: 22px;
+    }
+    h2{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #656565;
+padding-left: 520px;
+    }
+    }
+    .page-5__box{
+margin-left: 200px;
+padding-top: 55px;
+display: flex;
+flex-wrap: wrap;
+gap: 100px;
+.page-5__box-item1{
+    height: 260px;
+    width: 350px;
+    text-align: center;
+    img{
+        padding-left: 10px;
+    }
+    h1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+color: #121212;
+padding-top: 28px;
+    }
+    p{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #656565;
+padding-top: 14px;
+    }
+}
+    }
+    .button1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FF5634;
+border: 1px solid #FF5634;
+border-radius: 16px;
+height: 73px;
+width: 247px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+margin-top: 50px;
+margin-left: 590px;
+&:hover{
+    color: #121212;
+}
+    }
+    .button2{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+border-radius: 16px;
+height: 73px;
+width: 205px;
+margin-left: 27px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #121212;
+cursor: pointer;
+    }
+    }
