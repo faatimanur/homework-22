@@ -199,8 +199,333 @@ section.page-5 .button2 {
   margin-left: 27px;
   font-style: normal;
   font-weight: 400;
+<<<<<<< HEAD
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+}
+
+/*muxlisa*/
+section.page-6 {
+  width: 100%;
+  height: 1900px;
+}
+section.page-6 .container1 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.page-6 .container1 .left {
+  width: 568px;
+  height: 689px;
+  background: #FF5634;
+  border-radius: 32px;
+  position: relative;
+}
+section.page-6 .container1 .left .iphone-p-6 {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+section.page-6 .container1 .left .iphone-p-6 img.p-6-phone {
+  border-radius: 59px;
+}
+section.page-6 .container1 .left .iphone-p-6 .page-6-left {
+  position: absolute;
+  left: 117px;
+  top: 154px;
+}
+section.page-6 .container1 .right {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 55px;
+  margin-top: 60px;
+}
+section.page-6 .container1 .right h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+section.page-6 .container1 .right p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-6 .container1 .right .order-managament {
+  width: 569px;
+  display: flex;
+  gap: 25px;
+}
+section.page-6 .container1 .right .order-managament .managament-text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 35px;
+}
+section.page-6 .container1 .right .order-managament .managament-text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #121212;
+}
+section.page-6 .container1 .right .order-managament .managament-text h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-6 .container2 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+section.page-6 .container2 .left {
+  width: 568px;
+  height: 689px;
+  background: #FF5634;
+  border-radius: 32px;
+  position: relative;
+}
+section.page-6 .container2 .left .iphone-p-6 {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+}
+section.page-6 .container2 .left .iphone-p-6 img.p-6-phone {
+  border-radius: 59px;
+}
+section.page-6 .container2 .left .iphone-p-6 .page-6-left {
+  position: absolute;
+  right: 117px;
+  top: 154px;
+}
+section.page-6 .container2 .right {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 55px;
+  margin-top: 60px;
+}
+section.page-6 .container2 .right h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+section.page-6 .container2 .right p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-6 .container2 .right .order-managament {
+  width: 569px;
+  display: flex;
+  gap: 25px;
+}
+section.page-6 .container2 .right .order-managament .managament-text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 35px;
+}
+section.page-6 .container2 .right .order-managament .managament-text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #121212;
+}
+section.page-6 .container2 .right .order-managament .managament-text h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-6 .container2 .right .order-managament .managament-text .bottom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #656565;
+}
+
+section.page-7 {
+  width: 100%;
+  height: 1141px;
+  background: #FAFAFA;
+  padding: 139px 109px;
+}
+section.page-7 .page-7-top-text {
+  display: flex;
+  justify-content: space-between;
+}
+section.page-7 .page-7-top-text .top-text-left {
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+}
+section.page-7 .page-7-top-text .top-text-left h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+section.page-7 .page-7-top-text .top-text-left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-7 .page-7-top-text .top-text-left h6 {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-7 .page-7-top-text .top-text-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 27px;
+  margin-right: 90px;
+}
+section.page-7 .page-7-top-text .top-text-right button {
+  width: 205px;
+  height: 73px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #121212;
+}
+section.page-7 .page-7-top-text .top-text-right button.orange {
+  width: 247px;
+  height: 73px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  border-radius: 16px;
+  color: #fff;
+}
+section.page-7 .page-7-top-text .top-text-right button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgb(91, 91, 91);
+}
+section.page-7 .page-7-boxes {
+  width: 1222px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 41px;
+}
+section.page-7 .page-7-boxes .boxes-box-1 {
+  width: 389px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 41px 33px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+  border-radius: 24px;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-top .box-man {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-top .box-man .box-name {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-top .box-man .box-name h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #121212;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-top .box-man .box-name h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FF5634;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-bottom {
+  width: 315px;
+  position: relative;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-bottom p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+}
+section.page-7 .page-7-boxes .boxes-box-1 .box-bottom p.position {
+  position: absolute;
+  top: 55px;
+  right: 30px;
+=======
   font-size: 18px;
   line-height: 20px;
   color: #121212;
   cursor: pointer;
+>>>>>>> 7fde2a917280b227cfbf0cab4f18b1cb3600f605
 }/*# sourceMappingURL=style.css.map */
