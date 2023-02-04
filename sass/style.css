@@ -199,10 +199,10 @@ section.page-5 .button2 {
   margin-left: 27px;
   font-style: normal;
   font-weight: 400;
-<<<<<<< HEAD
-  font-size: 12px;
-  line-height: 30px;
-  color: #656565;
+  font-size: 18px;
+  line-height: 20px;
+  color: #121212;
+  cursor: pointer;
 }
 
 /*muxlisa*/
@@ -376,6 +376,41 @@ section.page-6 .container2 .right .order-managament .managament-text .bottom {
   text-align: center;
   color: #656565;
 }
+section.page-6 .container2 .right .order-managament .managament-text .button1 {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  border-radius: 16px;
+  height: 73px;
+  width: 247px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 640px;
+}
+section.page-6 .container2 .right .order-managament .managament-text .button1:hover {
+  color: #121212;
+}
+section.page-6 .container2 .right .order-managament .managament-text .button2 {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  height: 73px;
+  width: 205px;
+  margin-left: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #121212;
+  cursor: pointer;
+}
 
 section.page-7 {
   width: 100%;
@@ -522,10 +557,4 @@ section.page-7 .page-7-boxes .boxes-box-1 .box-bottom p.position {
   position: absolute;
   top: 55px;
   right: 30px;
-=======
-  font-size: 18px;
-  line-height: 20px;
-  color: #121212;
-  cursor: pointer;
->>>>>>> 7fde2a917280b227cfbf0cab4f18b1cb3600f605
 }/*# sourceMappingURL=style.css.map */
