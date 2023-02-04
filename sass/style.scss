@@ -180,6 +180,11 @@ margin-left: 640px;
 &:hover{
 color: #121212;
 }
+<<<<<<< HEAD
+=======
+    }
+
+>>>>>>> fad764f0bfd59fcb3f3db1bcaf3090749eb9e3d1
 }
 .button2{
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -614,4 +619,55 @@ cursor: pointer;
             }
         }
     }
+<<<<<<< HEAD
  }
+=======
+
+
+ }
+
+
+/*Muxlisa-responsive*/
+
+
+
+
+=======
+    .button1{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FF5634;
+border: 1px solid #FF5634;
+border-radius: 16px;
+height: 73px;
+width: 247px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+margin-top: 50px;
+margin-left: 640px;
+&:hover{
+    color: #121212;
+}
+    }
+    .button2{
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+border-radius: 16px;
+height: 73px;
+width: 205px;
+margin-left: 27px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #121212;
+cursor: pointer;
+    }
+}
+>>>>>>> 7fde2a917280b227cfbf0cab4f18b1cb3600f605
+>>>>>>> fad764f0bfd59fcb3f3db1bcaf3090749eb9e3d1
